@@ -3,14 +3,25 @@
     flex-direction: column;
     height: 100%;
     justify-content: space-evenly;
+    .logoContainer{
+        display: flex;
+        justify-content: center;
+    }
     .title{
         font-size: 50px;
         color: white;
-        font-family: monospace;
+        font-family: 'Audiowide', cursive;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 200px;
     }
 }
 
